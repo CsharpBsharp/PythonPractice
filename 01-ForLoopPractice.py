@@ -70,3 +70,17 @@ for item in {'key1':'value1','key2':'value2','key3':'value3'}.keys():
 print('Print values')
 for item in {'key1':'value1','key2':'value2','key3':'value3'}.values():
     print(item) #This will print values
+
+#Running Tally
+# Start sum at zero
+list_sum = 0
+for num in range(1,11):
+    list_sum += num
+print(list_sum)
+
+#Print Even numbers and Odd Number
+for num in range(0,11):
+    if num % 2 == 0 and num != 0:
+        print (f"Even Number:{num}")
+    else:
+        print(f"Odd Number:{num}")
