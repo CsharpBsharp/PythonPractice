@@ -103,6 +103,9 @@ with open('d:\\backup\\python\\pythonpractice\\AppendFCreation.txt', mode='a+') 
 	myafile.seek(0)
 	print(myafile.read())
 
+#Reading file using for loop. This will cause full file to not be loaded in memory for read.
+for line in open('d:\\backup\\python\\pythonpractice\\ExclusiveFCreation.txt'):
+	print(line)
 
 	
 
