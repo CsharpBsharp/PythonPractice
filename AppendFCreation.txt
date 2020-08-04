@@ -1,2 +1,4 @@
 Hello World by Append. This file did not exist before, append created me.
+Well writing once again and now APPEND should overrite this file right ? But it won't, APPEND always append at the end.Hello World by Append. This file did not exist before, append created me.
+Well writing once again and now APPEND should overrite this file right ? But it won't, APPEND always append at the end.Hello World by Append. This file did not exist before, append created me.
 Well writing once again and now APPEND should overrite this file right ? But it won't, APPEND always append at the end.
