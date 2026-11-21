@@ -217,6 +217,27 @@ def main():
         print(i)
     print(f"setc: {setc}")
 
+    print_section("Miscelleneous")
+    # sorting using sorted -- look how it returns LIST not SET
+    print("SORTED Demo: ")
+    print(seta)
+    print(f"sorted seta: {sorted(seta)}")
+    print(f"sorted seta: {sorted(seta, reverse=True)}")
+
+    # len
+    print()
+    print(f"lenght of set: {len(seta)}")
+
+    # Remove duplicate from LIST
+    print()
+    print("Remove duplicate from LIST: ")
+    lista = [1, 2, 3, 1, 2, 3]
+    print(lista)
+    # returns set
+    print(f"Return as SET by doing set(lista): {set(lista)}")
+    # returns list
+    print(f"Return as LIST by doing list(set(lista)): {list(set(lista))}")
+
 
 # Method to printout sections
 def print_section(section_title, num_of_equal_signs=15):
